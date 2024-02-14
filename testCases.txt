@@ -1,1 +1,6 @@
-Test Cases go here.
+Test Cases to check if the user created planet collided with any Planets
+
+User inputted x Coordinate      User inputted y Coordinate      User inputted y Coordinate      User inputted Radius      Planets Collided with
+42                              73                              120                             5                         Planet X and Earth Collided
+20                              70                              80                              7                         Planet X and Earth Collided
+20                              30                              25                              200                       User Planet Collided with all planets

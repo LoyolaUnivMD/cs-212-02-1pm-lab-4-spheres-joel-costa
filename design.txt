@@ -1,1 +1,35 @@
- Design goes here
+import Scanner
+Initialize Sphere class
+    Initialize new Scanner named question
+    Create double variables for x, y, z, and radius.
+    Create default constructor with attributes x, y, z and radius and assign them with this.
+    Create void surfaceArea method:
+        double surfaceArea = 4 * pi * radius
+        Print out the area
+    Create void Volume method:
+        double volume = (4/3) * pi * radius^3
+        Print out volume
+    Create double distanceFromPoint method:
+        double distance = Math.sqrt(Math.pow(x-x2,2) + Math.pow(y-y2,2) + Math.pow(z-z2,2));
+        Print out distance
+        return distance
+    Create void collision method:
+    If distance from 1 point to to other is less than radius1 + radius2:
+        print that Spheres collide
+    else
+        print that Spheres do NOT collide;
+
+Main Class:
+    Import Scanner Utility
+    Initialize scanner for input.
+    Initialize objects for the sun, the earth, and planetX using the specified numbers
+    Ask for input for the x, y, z, and radius variables for the user create planet.
+    Print out the surface area of the sun, and the volume of the sun.
+    Print out the surface area of the earth, and the volume of the earth.
+    Print out the surface area of the planetx, and the volume of the planetx.
+    Check if the sun has collided with earth
+    check if the sun has collided with planetx
+    check if the earth has collided with planetx
+    check if the users planet has collided with the sun
+    check if the users planet has collided with earth
+    check if the users planet has collided with planetx
